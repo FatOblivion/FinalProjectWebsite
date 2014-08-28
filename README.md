@@ -1,5 +1,5 @@
 # _Final project (website component)_
-============
+
 _Description: This project was built according to the specifications and problem statement given to me by my educational institution_
 
 
