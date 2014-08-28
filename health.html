@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sannie's Gym</title>
+
+    <!-- Loading core css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Loading custom css to overwrite any conflicting core styles -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootsrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Loading core JS -->
+    <script src="js/jquery-1.6.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/calculator.js"></script>
+    <!-- Custom parallax js -->
+    <script src="js/init.js"></script>
+  </head>
+  
+  <body>
+    
+   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+     <a class="navbar-brand" href="#">
+      <!-- Two images, one smaller for mobile, one bigger for bigger screens --> 
+       <img class="hidden-xs" src="img/logo.png" alt="">
+       <img class="visible-xs" src="img/logosm.png" alt=""> 
+     </a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+      </button>
+      
+      
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="contact.php">Contact us</a></li>
+       <li><a href="about.html">About us</a></li>
+       <li class="active"><a href="#">Health &amp; Fitness</a></li>
+       <li><a href="services.html">Services </a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+
+
+
+<section id="home" data-speed="6" data-type="background">
+  
+  <div class="container">
+    <h1 style="text-align: center;">Basic Health and fitness</h1>
+    <br>
+    <div class="col-md-4">
+      <h3>Healthy Diet</h3>
+      &nbsp;<p class="customHeader">Despite popular belief, a reliance on a single food which composes the majority of a diet is indicative of poor eating habits. An individual on such a diet may be prone to deficiency and most certainly will not be fulfilling the Recommended Nutrient Intake. While plants, vegetables, and fruits are known to help reduce the incidence of chronic disease[1], the benefits on health posed by plant-based foods, as well as the percentage on which a diet needs to be plant-based in order to have health benefits, is unknown. Nevertheless, plant-based food diets in society and between nutritionist circles are linked to health and longevity, as well as contributing to lowering cholesterol, weight loss, and, in some cases, stress reduction. [2] Although a number of preconceptions of a healthy diet center around plant-based foods, the majority of assumptions about foods which are usually thought of as "bad" foods are usually correct, apart from the assumption that there are "bad" foods; many people associate dishes such as Full English cooked Breakfast and Bacon Sandwiches as foods which, if eaten regularly, can contribute to cholesterol, fat, and heart problems.</p>
+    </div>
+    <div class="col-md-4">
+      <h3>Exercise</h3>
+      &nbsp;<p class="customHeader">Fitness means different things to different people. Basically it’s having energy for everyday living with enough energy left over for recreation. Physical fitness can be broken down into the following components: Strength, Cardiovascular, Flexibility, and Nutrition.
+
+      One reason for starting a fitness program is to build muscular strength needed to pick items up and carry them to where you want them without getting tired. Another reason is to build up muscular endurance to withstand fatigue during daily activities.
+
+      Cardiovascular fitness is being able to run around without getting winded.
+
+      Flexibility is being able to reach for items, turning your head when driving, and bending to pick items up.
+
+      Stretching exercises enable you to develop greater range of motion in your muscles and joints, which help you avoid injury. You should incorporate stretching exercises into any strength training and cardiovascular training program. Before stretching, remember to warm up for 5 - 10 minutes to increase your body’s core temperature and increase blood flow to your muscles. Always hold a stretch for 10 - 30 seconds.
+
+      Nutrition is eating a well rounded diet.</p>
+    </div>
+    <div class="col-md-4">
+      <h3>Healthy mind</h3>
+      &nbsp;<p class="customHeader">Chronic stress releases a number of different chemicals and hormones into your body that raise blood pressure, weaken your immunity to colds and illness, impair your memory, increase fat cell storage, and lead to depression.
+
+      Canadian researchers discovered that depressed people experienced significantly less depression after exercising for anywhere from 20 minutes to an hour, three times a week for five weeks. In some cases the benefits lasted up to one year. It is important to note however, that severe cases of depression require medical review and a combination of treatments.
+
+      In another study, a team of Australian researchers compared people who practiced progressive-relaxation techniques with a group who did 30 minutes of aerobic exercise three times a week. It was the exercise group that had lower blood pressure and responded best to acute stress.The psychological benefits of exercise are often overlooked. Today’s society greatly focuses on the physical benefits of exercise, such as weight loss, toned muscles and “six-pack abs.” Although these are remarkable benefits, the psychological benefits can be just as, if not significantly more</p>
+
+    </div>
+
+</div>
+
+
+</section>
+<br>
+<div class="container">
+  <div class="page-header">
+    <h1 style="text-align: center;">Check up on your health</h1>
+  </div>
+  <br>
+
+  <div class="col-lg-8">
+  <form class="form-horizontal"  method="POST" id="fitnessCalc" name="fitnessCalc">
+    <fieldset>
+
+    <!-- Form Name -->
+    <legend>Fitness calculator</legend>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="weight">Weight:</label>  
+      <div class="col-md-4">
+        <input id="weight" name="weight" placeholder="Weight(kg)" class="form-control input-md" required type="text">
+    
+      </div>
+    </div>
+
+<!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="height">Height:</label>  
+      <div class="col-md-4">
+        <input id="height" name="height" placeholder="Height(cm)" class="form-control input-md" type="text">
+    
+      </div>
+    </div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" >Gender</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="radMale">
+      <input name="radio" id="radMale" value="0" checked="checked" type="radio">
+      Male
+    </label>
+  </div>
+  <div class="radio">
+    <label for="radFemale">
+      <input name="radio" id="radFemale" value="1" type="radio">
+      Female
+    </label>
+  </div>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="age">Age:</label>  
+  <div class="col-md-2">
+  <input id="age" name="age" placeholder="Age" class="form-control input-md" required type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="hrRest">Resting heart rate:</label>  
+  <div class="col-md-4">
+  <input id="hrRest" name="hrRest" placeholder="Resting heart rate" class="form-control input-md" required type="text">
+    
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="btnCalc"></label>
+  <div class="col-md-8">
+   <button id="btnCalc" name="btnCalc" type="button" onclick="return calc();" class="btn btn-success">Calculate</button>
+    <button id="btnClear" name="btnClear" class="btn btn-danger" type="reset">Clear</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+ 
+
+</div>
+&nbsp;
+<div class=".col-xs-6" >
+  
+    <h1>Your results</h1>
+    <br>
+   
+    <ul>
+      <li id="idealBmi"></li>
+      <li id="currentBmi"></li>
+      <li id="vo2max"></li>
+      <li id="bmiStatus"></li>
+    </ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+</div>
+</div>
+<br>
+
+
+
+<div class="footer navbar-default-bottom">
+   <div class="container">
+    <div class="author" style="padding-top:10px;">
+    <p>Designed by Neal Morris</p>
+  </div>
+    
+  <div class="social-icons">
+   <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>
+   <a href="http://www.twitter.com"><i class="fa fa-twitter fa-2x"></i></a>
+     &nbsp;<a href="#"><i class="fa fa-chevron-circle-up fa-2x"></i></a>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
